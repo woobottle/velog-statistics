@@ -21,7 +21,7 @@
     "generate": "pnpm plop --plopfile ./.plop/plopfile.js"
   },
   "engines": {
-    "node": ">=18.20.2"
+    "node": ">=20.17.0"
   },
   "packageManager": "pnpm@9.1.1+sha256.9551e803dcb7a1839fdf5416153a844060c7bce013218ce823410532504ac10b",
   "dependencies": {
@@ -79,7 +79,8 @@
     "storybook": "^8.2.9",
     "tailwind-scrollbar": "3.1.0",
     "tailwindcss": "3.4.10",
-    "typescript": "5.5.4"
+    "typescript": "5.5.4",
+    "vitest": "^2.1.1"
   },
   "lint-staged": {
     "src/**/*": [
