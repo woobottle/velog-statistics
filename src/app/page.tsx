@@ -4,7 +4,7 @@ const featuresItems = [
   { icon: '💅', name: 'Tailwind CSS' },
   { icon: '✨', name: 'ESlint' },
   { icon: '✨', name: 'Prettier' },
-  { icon: '🧪', name: 'Jest' },
+  { icon: '🧪', name: 'Vitest' },
   { icon: '🧪', name: 'React Testing Library' },
   { icon: '📕', name: 'Storybook' },
   { icon: '💎', name: 'Atomic Design' },
@@ -23,8 +23,8 @@ const HomePage = () => (
           </h1>
           <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
             Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer
-            experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, React
-            Testing Library, PostCSS, Tailwind CSS, Storybook, Plop, GH actions.
+            experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest,
+            React Testing Library, PostCSS, Tailwind CSS, Storybook, Plop, GH actions.
           </p>
         </div>
       </div>

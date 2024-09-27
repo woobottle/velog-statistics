@@ -1,6 +1,6 @@
 # Boilerplate and Starter for Next JS 14+, Tailwind CSS 3 and TypeScript
 
-🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js (app routing), TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, React Testing Library, PostCSS, Tailwind CSS, Storybook, Plop, GH actions.
+🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js (app routing), TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest, React Testing Library, PostCSS, Tailwind CSS, Storybook, Plop, GH actions.
 
 ![Cover](https://svgshare.com/i/idk.svg)
 
@@ -17,7 +17,7 @@ Developer experience first:
 - Code Formatter with [Prettier](https://prettier.io)
 - [Husky](https://typicode.github.io/husky/#/) for Git Hooks
 - [Lint-staged](https://github.com/okonet/lint-staged) for running linters on Git staged files
-- Testing with [Jest](https://jestjs.io/) and [react-testing-library](https://testing-library.com/)
+- Testing with [Vitest](https://vitest.dev/) and [react-testing-library](https://testing-library.com/)
 - Absolute Imports using `@` prefix
 - Nextjs custom layouts
 - [T3 env](https://env.t3.gg/) Manage your environment variables with ease
@@ -33,7 +33,7 @@ Developer experience first:
 
 ## 🧪 Testing
 
-All tests are collocated with the source code inside the same directory. So, it makes it easier to find them. Coverage threshold is set to `70%`. In the `.jest` folder there is a custom provider for the all tests.
+All tests are collocated with the source code inside the same directory. So, it makes it easier to find them. Coverage threshold is set to `70%`. In the `.Vitest` folder there is a custom provider for the all tests.
 
 ## :information_source: How To Use
 

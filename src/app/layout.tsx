@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-primary' });
 export const metadata: Metadata = {
   title: 'Home page | Nextjs boilerplate',
   description:
-    '🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, React Testing Library, PostCSS, Tailwind CSS, Storybook, Plop, GH actions.'
+    '🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest, React Testing Library, PostCSS, Tailwind CSS, Storybook, Plop, GH actions.'
 };
 
 interface RootLayoutProps {
