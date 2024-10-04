@@ -17,8 +17,8 @@
     "test:ci": "vitest --ci",
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build",
-    "postinstall": "husky install",
-    "generate": "pnpm plop --plopfile ./.plop/plopfile.js"
+    "generate": "pnpm plop --plopfile ./.plop/plopfile.js",
+    "prepare": "husky"
   },
   "engines": {
     "node": ">=20.17.0"
